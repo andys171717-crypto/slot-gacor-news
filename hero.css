@@ -613,9 +613,9 @@
 
     display:grid;
 
-    grid-template-columns:340px 1fr 1fr;
+    grid-template-columns:420px 1fr 1fr;
 
-    gap:70px;
+    gap:90px;
 
     align-items:flex-start;
 
@@ -623,13 +623,17 @@
 
 .footer-brand h3{
 
-    margin:0 0 18px;
+    margin:0 0 20px;
 
     color:#29B8F2;
 
-    font-size:38px;
+    font-size:44px;
 
     font-weight:800;
+
+    letter-spacing:1px;
+
+    line-height:1.1;
 
 }
 
@@ -777,11 +781,13 @@
 
 .footer-links h4{
 
-    margin:0 0 20px;
+    margin:0 0 24px;
 
     color:#ffffff;
 
-    font-size:20px;
+    font-size:22px;
+
+    font-weight:700;
 
 }
 
