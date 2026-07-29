@@ -63,3 +63,56 @@
     line-height:1.8;
 
 }
+
+.hero-image{
+
+    margin-top:40px;
+
+}
+
+.hero-image img{
+
+    width:100%;
+
+    border-radius:16px;
+
+    display:block;
+
+}
+
+.hero-buttons{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    margin-top:12px;
+
+}
+
+.hero-login,
+.hero-register{
+
+    text-decoration:none;
+
+    text-align:center;
+
+    padding:18px;
+
+    color:#ffffff;
+
+    font-weight:700;
+
+}
+
+.hero-login{
+
+    background:#0089d6;
+
+}
+
+.hero-register{
+
+    background:#00a9ff;
+
+}
