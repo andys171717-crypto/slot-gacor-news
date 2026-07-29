@@ -280,14 +280,82 @@
 
 .logo-text{
 
+    position:relative;
+
+    display:inline-block;
+
+    overflow:hidden;
+
     text-decoration:none;
 
-    color:#29B8F2;
+    color:#33c7ff;
 
-    font-size:32px;
+    font-size:40px;
 
-    font-weight:800;
+    font-weight:900;
 
-    letter-spacing:1px;
+    letter-spacing:1.5px;
+
+    text-transform:uppercase;
+
+    text-shadow:
+        0 0 8px rgba(41,184,242,.55),
+        0 0 18px rgba(41,184,242,.35);
+
+    transition:.35s;
+
+}
+
+.logo-text::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-40%;
+
+    left:-45%;
+
+    width:28%;
+
+    height:180%;
+
+    background:linear-gradient(
+        90deg,
+        transparent,
+        rgba(255,255,255,.95),
+        transparent
+    );
+
+    transform:skewX(-25deg);
+
+    animation:logoShine 3.8s linear infinite;
+
+}
+
+.logo-text:hover{
+
+    color:#5dd8ff;
+
+    text-shadow:
+        0 0 12px rgba(41,184,242,.85),
+        0 0 28px rgba(41,184,242,.65),
+        0 0 40px rgba(41,184,242,.45);
+
+}
+
+@keyframes logoShine{
+
+    from{
+
+        left:-45%;
+
+    }
+
+    to{
+
+        left:145%;
+
+    }
 
 }
