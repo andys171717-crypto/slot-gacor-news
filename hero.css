@@ -411,19 +411,71 @@
 
 }
 
-.faq-card h2{
+.faq-header{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    gap:18px;
+
+    padding:28px;
+
+    border-bottom:2px solid #1FA8E3;
+
+}
+
+.faq-accent{
+
+    width:4px;
+
+    height:58px;
+
+    background:#29B8F2;
+
+    border-radius:3px;
+
+    flex-shrink:0;
+
+}
+
+.faq-heading{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:6px;
+
+}
+
+.faq-heading h2{
 
     margin:0;
 
-    padding:24px 28px;
-
     color:#ffffff;
 
-    font-size:30px;
+    font-size:34px;
 
     font-weight:800;
 
-    border-bottom:2px solid #1FA8E3;
+    line-height:1.1;
+
+}
+
+.faq-heading p{
+
+    margin:0;
+
+    color:#8d8d8d;
+
+    font-size:12px;
+
+    font-weight:700;
+
+    letter-spacing:4px;
+
+    text-transform:uppercase;
 
 }
 
