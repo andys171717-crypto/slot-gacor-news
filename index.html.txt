@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>TWITSPIN</title>
+
+    <link rel="icon"
+          href="images/favicon.ico">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+      href="css/header.css">
+
+<link rel="stylesheet"
+      href="css/hero.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+<header class="site-header">
+
+    <div class="header-container">
+
+        <a href="#"
+   class="logo-text">
+
+    SLOT GACOR
+
+</a>
+
+        <nav class="desktop-menu">
+
+            <a href="#">Beranda</a>
+
+            <a href="#">Artikel</a>
+
+            <a href="#">FAQ</a>
+
+        </nav>
+
+        <div class="header-buttons">
+
+            <a href="https://realtwitspin.autos/"
+               target="_blank"
+               class="btn-login">
+
+                MASUK
+
+            </a>
+
+            <a href="https://realtwitspin.autos/"
+               target="_blank"
+               class="btn-register">
+
+                DAFTAR
+
+            </a>
+
+        </div>
+
+        <button class="menu-toggle">
+
+            ☰
+
+        </button>
+
+    </div>
+
+</header>
+
+    <!-- HERO -->
+
+<section class="hero-section">
+
+    <div class="hero-container">
+
+        <div class="hero-title">
+
+            <span class="hero-category">
+
+                BISNIS
+
+            </span>
+
+            <h1>
+
+                10 Peluang Bisnis yang Sedang Booming di Indonesia Tahun 2026
+
+            </h1>
+
+            <p>
+
+                Artikel ini membahas berbagai sektor bisnis yang sedang berkembang di Indonesia berdasarkan tren ekonomi, digitalisasi, dan perubahan perilaku masyarakat.
+
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- SCRIPT -->
+
+    <script src="js/header.js"></script>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+.hero-section{
+
+    width:100%;
+
+    background:#ffffff;
+
+    padding:60px 0;
+
+}
+
+.hero-container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:0 24px;
+
+}
+
+.hero-category{
+
+    display:inline-block;
+
+    background:#29B8F2;
+
+    color:#ffffff;
+
+    padding:8px 18px;
+
+    border-radius:30px;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    margin-bottom:20px;
+
+}
+
+.hero-title h1{
+
+    font-size:52px;
+
+    line-height:1.25;
+
+    color:#111111;
+
+    margin-bottom:24px;
+
+    font-weight:800;
+
+}
+
+.hero-title p{
+
+    max-width:760px;
+
+    font-size:18px;
+
+    color:#666666;
+
+    line-height:1.8;
+
+}
