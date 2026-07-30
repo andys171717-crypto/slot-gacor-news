@@ -801,6 +801,12 @@
 
 .desktop-menu{
 
+    display:flex;
+
+    width:100%;
+
+    max-width:100%;
+
     overflow-x:auto;
 
     overflow-y:hidden;
@@ -812,6 +818,8 @@
     padding-bottom:8px;
 
     -webkit-overflow-scrolling:touch;
+
+    box-sizing:border-box;
 
 }
 
@@ -866,6 +874,23 @@
 .news-popup.show{
 
     transform:translateX(0) translateY(0);
+
+}
+
+html,
+body{
+
+    width:100%;
+
+    max-width:100%;
+
+    overflow-x:hidden;
+
+}
+
+.site-header{
+
+    overflow:hidden;
 
 }
 
