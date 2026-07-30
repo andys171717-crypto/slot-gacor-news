@@ -40,15 +40,17 @@
 
 .hero-title h1{
 
-    font-size:52px;
+    font-size:44px;
 
-    line-height:1.25;
+    line-height:1.22;
 
     color:#111111;
 
-    margin-bottom:24px;
+    margin-bottom:16px;
 
     font-weight:800;
+
+    letter-spacing:-0.5px;
 
 }
 
