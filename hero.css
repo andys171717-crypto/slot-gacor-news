@@ -631,7 +631,7 @@
 
     overflow:hidden;
 
-    margin:0 0 18px;
+    margin:0 0 10px;
 
     color:#29B8F2;
 
@@ -648,6 +648,18 @@
         0 0 18px rgba(41,184,242,.35);
 
     transition:.35s;
+
+}
+
+.footer-tagline{
+
+    margin:8px 0 10px;
+
+    color:#8d8d8d;
+
+    font-size:14px;
+
+    line-height:1.6;
 
 }
 
