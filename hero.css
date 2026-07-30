@@ -943,12 +943,54 @@
 
     padding-top:24px;
 
-    border-top:1px solid rgba(255,255,255,.08);
+    border-top:1px solid rgba(255,255,255,.10);
 
-    color:#888888;
+    display:flex;
 
-    text-align:center;
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:18px;
+
+}
+
+.footer-bottom-links{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:26px;
+
+}
+
+.footer-bottom-links a{
+
+    color:#b8b8b8;
+
+    text-decoration:none;
 
     font-size:14px;
+
+    transition:.25s;
+
+}
+
+.footer-bottom-links a:hover{
+
+    color:#29B8F2;
+
+}
+
+.footer-copyright{
+
+    color:#8b8b8b;
+
+    font-size:14px;
+
+    text-align:center;
 
 }
