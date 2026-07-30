@@ -1043,3 +1043,79 @@
     text-align:center;
 
 }
+
+/* ======================================================
+   HERO MOBILE
+====================================================== */
+
+@media (max-width:768px){
+
+.hero-section{
+
+    padding:30px 0;
+
+}
+
+.hero-container{
+
+    padding:0 16px;
+
+}
+
+.hero-title h1{
+
+    font-size:26px;
+
+    line-height:1.35;
+
+}
+
+.hero-layout{
+
+    grid-template-columns:1fr;
+
+    gap:18px;
+
+}
+
+.hero-right{
+
+    min-height:auto;
+
+}
+
+.hero-image img{
+
+    height:auto;
+
+    max-height:420px;
+
+    object-fit:cover;
+
+}
+
+.review-item{
+
+    grid-template-columns:54px 1fr;
+
+}
+
+.review-number{
+
+    font-size:28px;
+
+}
+
+.review-text{
+
+    font-size:14px;
+
+}
+
+.hero-buttons{
+
+    grid-template-columns:1fr 1fr;
+
+}
+
+}
