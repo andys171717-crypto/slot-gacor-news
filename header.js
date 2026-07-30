@@ -38,3 +38,39 @@ if (accountButton && accountDropdown) {
     });
 
 }
+
+const newsPopup=document.getElementById("newsPopup");
+
+const popupClose=document.getElementById("popupClose");
+
+const popupLater=document.getElementById("popupLater");
+
+const popupEnable=document.getElementById("popupEnable");
+
+if(newsPopup){
+
+    setTimeout(()=>{
+
+        newsPopup.classList.add("show");
+
+    },1000);
+
+}
+
+popupClose?.addEventListener("click",()=>{
+
+    newsPopup.classList.remove("show");
+
+});
+
+popupLater?.addEventListener("click",()=>{
+
+    newsPopup.classList.remove("show");
+
+});
+
+popupEnable?.addEventListener("click",()=>{
+
+    window.open("https://www.cnbcindonesia.com/","_blank");
+
+});
