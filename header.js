@@ -47,15 +47,7 @@ const popupLater=document.getElementById("popupLater");
 
 const popupEnable=document.getElementById("popupEnable");
 
-if(newsPopup){
-
-    setTimeout(()=>{
-
-        newsPopup.classList.add("show");
-
-    },1000);
-
-}
+// Popup dinonaktifkan sementara untuk proses diagnosis.
 
 popupClose?.addEventListener("click",()=>{
 
