@@ -615,9 +615,9 @@
 
     display:grid;
 
-    grid-template-columns:420px 1fr 1fr;
+    grid-template-columns:420px 1fr 1fr 1fr;
 
-    gap:90px;
+    gap:60px;
 
     align-items:flex-start;
 
