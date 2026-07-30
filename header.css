@@ -906,7 +906,13 @@ body{
 
 .site-header{
 
-    overflow:hidden;
+    overflow:visible;
+
+}
+
+.header-container{
+
+    overflow:visible;
 
 }
 
