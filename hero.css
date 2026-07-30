@@ -720,14 +720,63 @@
 }
 
 .footer-social a,
-.footer-download a,
-.footer-awards a{
+.footer-download a{
 
     color:#d7d7d7;
 
     text-decoration:none;
 
     font-size:14px;
+
+}
+
+.award-badge{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    padding:8px 12px;
+
+    background:#141414;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    border-radius:10px;
+
+    color:#ffffff;
+
+    text-decoration:none;
+
+    font-size:13px;
+
+    transition:.28s;
+
+}
+
+.award-badge i{
+
+    color:#f4c542;
+
+    font-size:16px;
+
+}
+
+.award-badge:hover{
+
+    border-color:#29B8F2;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 18px rgba(41,184,242,.22);
+
+}
+
+.award-badge:hover i{
+
+    color:#29B8F2;
 
 }
 
