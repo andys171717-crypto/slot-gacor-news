@@ -841,27 +841,31 @@
 
 .news-popup{
 
-    width:calc(100% - 32px);
-
-    max-width:340px;
-
-    left:16px;
-
-    right:16px;
+    position:fixed;
 
     top:16px;
 
-    margin:0 auto;
+    left:16px;
+
+    right:auto;
+
+    width:calc(100vw - 32px);
+
+    max-width:320px;
+
+    margin:0;
 
     padding:18px;
 
-    transform:translateY(-20px);
+    box-sizing:border-box;
+
+    transform:translateX(0) translateY(-20px);
 
 }
 
 .news-popup.show{
 
-    transform:translateY(0);
+    transform:translateX(0) translateY(0);
 
 }
 
