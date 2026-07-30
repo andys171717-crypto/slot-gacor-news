@@ -749,11 +749,11 @@
 
     max-width:100%;
 
-    margin:0;
+    margin:0 auto;
 
     box-sizing:border-box;
 
-    padding:12px;
+    padding:12px 16px;
 
 }
 
@@ -767,7 +767,7 @@
 
     flex-wrap:wrap;
 
-    gap:10px;
+    gap:12px;
 
     width:100%;
 
@@ -791,9 +791,15 @@
 
 .header-user{
 
+    display:flex;
+
+    align-items:center;
+
     margin-left:auto;
 
-    gap:8px;
+    gap:10px;
+
+    flex-shrink:0;
 
 }
 
