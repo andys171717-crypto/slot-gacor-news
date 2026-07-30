@@ -333,8 +333,6 @@
 
     background:rgba(41,184,242,.08);
 
-    transform:translateY(-2px);
-
 }
 
 .desktop-menu a:hover::after{
