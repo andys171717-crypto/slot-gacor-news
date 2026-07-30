@@ -705,9 +705,21 @@
 
 }
 
-.footer-social,
-.footer-download,
-.footer-awards{
+.footer-social{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,56px);
+
+    gap:12px;
+
+    margin-top:12px;
+
+    margin-bottom:18px;
+
+}
+
+.footer-download{
 
     display:flex;
 
@@ -715,7 +727,19 @@
 
     gap:12px;
 
-    margin-top:20px;
+    margin-top:8px;
+
+}
+
+.footer-awards{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:10px;
+
+    margin-top:12px;
 
 }
 
@@ -782,9 +806,9 @@
 
 .social-btn{
 
-    width:42px;
+    width:50px;
 
-    height:42px;
+    height:50px;
 
     display:flex;
 
@@ -792,7 +816,7 @@
 
     justify-content:center;
 
-    border:1px solid rgba(255,255,255,.28);
+    border:1px solid rgba(255,255,255,.30);
 
     border-radius:50%;
 
@@ -800,7 +824,7 @@
 
     color:#ffffff !important;
 
-    font-size:13px !important;
+    font-size:17px !important;
 
     font-weight:700;
 
